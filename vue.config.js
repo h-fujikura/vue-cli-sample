@@ -1,3 +1,7 @@
 module.exports = {
-  lintOnSave: false
+  publicPath: "/vue-cli-sample/",
+  outputDir: "docs"
+  //  chainWebpack: (config) => {
+  //    config.plugins.delete('prefetch')
+  //  }
 };
